@@ -1,0 +1,10 @@
+@import url('./footer-1.css');
+@import url('./footer-2.css');
+@import url('./footer-3.css');
+@import url('./footer-4.css');
+@import url('./footer-5.css');
+@import url('./footer-6.css');
+footer{
+    width: 100%;
+    height: 1100;
+}

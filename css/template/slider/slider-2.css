@@ -1,0 +1,92 @@
+div.slider-2{
+    width: 98%;
+    height: 250px;
+    margin: 0px auto;
+    background-color: var(--bg-myred);
+    border: 2px solid var(--bg-myred);
+    border-radius: 15px;
+    padding-top: 15px;
+}
+  div.slider-2 .swiper {
+  width: 100%;
+  height: 100%;
+}
+div.slider-2 .swiper-slide:first-child {
+    background-color: var(--bg-myred);    
+}
+div.slider-2 .swiper-slide:first-child >div.first {
+    width: inherit;
+    height: inherit;
+    background-color: var(--bg-myred);
+}
+div.slider-2 .swiper-slide:first-child >div.first>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    font-family: yekan;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+div.slider-2 .swiper-slide:nth-of-type(2) {
+    border-radius: 0px 10px 10px 0px;
+}
+div.slider-2 .swiper-slide {
+  text-align: center;
+  width: 100%;
+  height: 92%;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--bg-myred);
+}
+div.slider-2 .swiper-slide img {
+    width: 80px;
+}
+div.slider-2 .swiper-slide  i{
+    display: block;
+    position: relative;
+    right: -50px;
+    top: -30px;
+    color:crimson;
+    font-size: 22px;
+    font-weight: normal;
+    margin-right: 6px;
+}
+div.slider-2 .swiper-slide  a{
+display: block;
+width: 100%;
+text-decoration: none;
+}
+div.slider-2 .swiper-slide  h5{
+    display: inline-block;
+    font-family: yekan;
+    font-size: 11px;
+    color: black;
+}
+div.slider-2 .swiper-slide  h5:nth-of-type(1){
+    padding: 2px 7px 2px 7px;
+      margin: 0px 0px 10px 20px;
+      background-color:crimson;
+      border-radius: 15px;
+      color: white;
+      font-size: 9px;
+}
+div.slider-2 .swiper-slide  h6{
+    text-decoration-line: line-through;
+    color: grey;
+    font-size: 10px;
+    font-family: yekan;
+    padding-right: 70px;
+    }
+@media (max-width: 760px) {
+    div.slider-2 .swiper-button-next {
+    right: 20px;
+    transform: rotate(90deg);
+  }
+  div.slider-2 .swiper-button-prev {
+    left: 20px;
+    transform: rotate(90deg);
+  }
+}

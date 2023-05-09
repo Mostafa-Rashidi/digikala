@@ -1,0 +1,180 @@
+div.menu-6 {
+  width: 100%;
+  height: 450px;
+  background-color: var(--bg-white);
+}
+div.menu-6 > div.parents {
+  width: 98%;
+  height: 400px;
+  padding-right: 5px;
+  border: 1px solid var(--bg-grey);
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-right: 13px;
+}
+div.menu-6 > div.parents hr {
+  color: var(--bg-grey);
+  opacity: 0.2;
+}
+div.menu-6 > div.parents > hr.vertical {
+  display: inline-block;
+  transform: rotate(180deg);
+  height: 400px;
+  vertical-align: bottom;
+}
+/* mobile */
+div.menu-6 > div.parents > div.mobile {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+}
+div.menu-6 > div.parents > div.mobile > h2 {
+  font-family: yekan;
+  font-size: 14px;
+  margin-right: 10px;
+}
+div.menu-6 > div.parents > div.mobile > h5 {
+  font-family: yekan;
+  font-size: 11px;
+  margin-right: 10px;
+  color: rgb(160, 156, 156);
+}
+div.menu-6 > div.parents > div.mobile img {
+  width: 135px;
+  height: 140px;
+  margin: 10px 5px 2px 2px;
+  vertical-align: top;
+}
+div.menu-6 > div.parents > div.mobile > hr.vertical {
+  display: inline-block;
+  transform: rotate(180deg);
+  height: 160px;
+  vertical-align: bottom;
+}
+div.menu-6 > div.parents > div.mobile > a {
+  text-decoration: none;
+}
+div.menu-6 > div.parents > div.mobile > a:last-child {
+  color:var(--bg-font);
+  margin-right: 135px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* end mobile */
+/* cover */
+div.menu-6 > div.parents > div.cover {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+}
+div.menu-6 > div.parents > div.cover > h2 {
+  font-family: yekan;
+  font-size: 14px;
+  margin-right: 10px;
+}
+div.menu-6 > div.parents > div.cover > h5 {
+  font-family: yekan;
+  font-size: 11px;
+  margin-right: 10px;
+  color: rgb(160, 156, 156);
+}
+div.menu-6 > div.parents > div.cover img {
+  width: 135px;
+  height: 140px;
+  margin: 10px 5px 2px 2px;
+  vertical-align: top;
+}
+div.menu-6 > div.parents > div.cover > hr.vertical {
+  display: inline-block;
+  transform: rotate(180deg);
+  height: 160px;
+  vertical-align: bottom;
+}
+div.menu-6 > div.parents > div.cover > a {
+  text-decoration: none;
+}
+div.menu-6 > div.parents > div.cover > a:last-child {
+  color:var(--bg-font);
+  margin-right: 135px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* end cover */
+/* headphone */
+div.menu-6 > div.parents > div.headphone {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+}
+div.menu-6 > div.parents > div.headphone > h2 {
+  font-family: yekan;
+  font-size: 14px;
+  margin-right: 10px;
+}
+div.menu-6 > div.parents > div.headphone > h5 {
+  font-family: yekan;
+  font-size: 11px;
+  margin-right: 10px;
+  color: rgb(160, 156, 156);
+}
+div.menu-6 > div.parents > div.headphone img {
+  width: 135px;
+  height: 140px;
+  margin: 10px 5px 2px 2px;
+  vertical-align: top;
+}
+div.menu-6 > div.parents > div.headphone > hr.vertical {
+  display: inline-block;
+  transform: rotate(180deg);
+  height: 160px;
+  vertical-align: bottom;
+}
+div.menu-6 > div.parents > div.headphone > a {
+  text-decoration: none;
+}
+div.menu-6 > div.parents > div.headphone > a:last-child {
+  color:var(--bg-font);
+  margin-right: 135px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* end headphone */
+/* watch */
+div.menu-6 > div.parents > div.watch {
+  width: 300px;
+  height: 400px;
+  display: inline-block;
+}
+div.menu-6 > div.parents > div.watch > h2 {
+  font-family: yekan;
+  font-size: 14px;
+  margin-right: 10px;
+}
+div.menu-6 > div.parents > div.watch > h5 {
+  font-family: yekan;
+  font-size: 11px;
+  margin-right: 10px;
+  color: rgb(160, 156, 156);
+}
+div.menu-6 > div.parents > div.watch img {
+  width: 135px;
+  height: 140px;
+  margin: 10px 5px 2px 2px;
+  vertical-align: top;
+}
+div.menu-6 > div.parents > div.watch > hr.vertical {
+  display: inline-block;
+  transform: rotate(180deg);
+  height: 160px;
+  vertical-align: bottom;
+}
+div.menu-6 > div.parents > div.watch > a {
+  text-decoration: none;
+}
+div.menu-6 > div.parents > div.watch > a:last-child {
+  color:var(--bg-font);
+  margin-right: 135px;
+  display: inline-block;
+  margin-top: 5px;
+}
+/* end watch */

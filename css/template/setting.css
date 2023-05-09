@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --border-1px:1px solid grey;
+    --bg-whitesmoke:whitesmoke;
+    --bg-white:white;
+    --bg-grey:rgba(214, 209, 209, 0.6);
+    --bg-font:#88E0F5;
+    --bg-myred:rgb(233, 62, 81);
+}
+html,body{
+    direction: rtl;
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family:iransans-medium ;
+    src: url('../../fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.eot');
+    src: url('../../fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.ttf');
+    src: url('../../fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.woff');
+    src: url('../../fonts/fa/IRANSansWebFaNum-Medium/IRANSansWebFaNum-Medium.woff2');
+}
+@font-face {
+    font-family: iransans ;
+    src: url('../../fonts/fa/IRANSansWebFaNum/IRANSansWebFaNum.eot');
+    src: url('../../fonts/fa/IRANSansWebFaNum/IRANSansWebFaNum.ttf');
+    src: url('../../fonts/fa/IRANSansWebFaNum/IRANSansWebFaNum.woff');
+    src: url('../../fonts/fa/IRANSansWebFaNum/IRANSansWebFaNum.woff2');
+}
+@font-face {
+    font-family: yekan ;
+    src: url('../../fonts/fa/IRANYekan-Bold/IRANYekan-Bold.eot');
+    src: url('../../fonts/fa/IRANYekan-Bold/IRANYekan-Bold.ttf');
+    src: url('../../fonts/fa/IRANYekan-Bold/IRANYekan-Bold.woff');
+    src: url('../../fonts/fa/IRANYekan-Bold/IRANYekan-Bold.woff2');
+}
+div.wrapper{
+    width: 100%;
+}

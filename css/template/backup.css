@@ -1,0 +1,162 @@
+div.backup{
+    width: 100%;
+}
+div.backup>input{
+    display: none;
+}
+div.backup>label{
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 30px;
+    color: white;
+    display: block;
+    border-radius: 50%;
+    background-color: var(--bg-myred);
+    position:fixed;
+    z-index: 0;
+    left: 20px;
+    bottom: 20px;
+    transition: 500ms;
+    text-align: center;
+    cursor: pointer;
+}
+div.backup>label>i[class="fa-solid fa-circle-xmark"]{
+    color: var(--bg-myred);
+    background-color:white;
+}
+div.backup>input[id=open] ~ label[for=open] {
+    z-index: 4;
+}
+div.backup>input[id=open]:checked ~ label[for=close] {
+z-index: 6;
+}
+div.backup>input[id=close]:checked ~ label[for=close] {
+    z-index: 0;
+}
+div.backup>input[id=close]:checked ~ div.backup-page{
+    display: none;
+}
+div.backup>input[id=open]:checked ~ div.backup-page{
+    display: block;   
+}
+div.backup>div.backup-page{
+    width: 25vw;
+    height: 80vh;
+    position: fixed;
+    z-index: 100;
+    left: 30px;
+    bottom: 100px;
+    background-color:var(--bg-white);
+    display: none;
+    border: 1px solid  var(--bg-myred);
+    border-radius: 20px;
+    transition: 500ms;
+}
+div.backup>div.backup-page>.div-1-backup{
+    width: 100%;
+    height: 40px;
+    background-color: var(--bg-myred);
+    border-radius: 20px 20px 0px 0px;
+    padding: 5px 20px 5px 5px;
+}
+div.backup>div.backup-page>.div-1-backup>h2{
+    display: inline-block;
+    width: 88%;
+    height: inherit;
+    font-size: 14px;
+    font-family: yekan;
+    font-weight: bold;
+    color: white;
+}
+div.backup>div.backup-page>.div-1-backup>a{
+    display: inline-block;
+    width: 10%;
+    height: inherit;
+    font-size: 14px;
+    font-family: yekan;
+    font-weight: bold;
+    color: white;
+}
+div.backup>div.backup-page>div.div-2-backup{
+    width: inherit;
+    height: 71vh;
+    overflow: auto;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-1{
+    width: 100%;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-1>h3{
+    width: 100%;
+    height: inherit;
+    font-size: 14px;
+    font-family: yekan;
+    font-weight: bold;
+    color: black;
+    padding: 5px 10px 5px 10px ;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-1>p{
+    width: 100%;
+    height: inherit;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    color: black;
+}
+div.backup>div.backup-page>div.div-2-backup>div.div-2-backup-2 ,div.div-2-backup-3 ,div.div-2-backup-4{
+        width: 100%;
+        height: auto;
+        padding: 5px 25px 5px 25px;
+}
+div.backup>div.backup-page>div.div-2-backup>div.div-2-backup-2>details ,div.div-2-backup-3>details ,div.div-2-backup-4>details{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 15px;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-2>details>summary ,div.div-2-backup-3>details>summary ,div.div-2-backup-4>details>summary{
+    width: 100%;
+    height: inherit;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-2>details>p ,div.div-2-backup-3>details>p ,div.div-2-backup-4>details>p{
+    width: 100%;
+    height: inherit;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: iransans;
+    font-weight: normal;
+    color: black;
+    text-align: justify;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-5>h3{
+    width: 100%;
+    height: inherit;
+    padding: 5px 10px 5px 10px;
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+div.backup>div.backup-page>div.div-2-backup>.div-2-backup-5>a{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 13px 7px 12px;
+    font-size: 15px;
+    font-family: yekan;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--bg-font);
+    border-radius: 20px;
+    display: block;
+    margin: 0px auto;
+}

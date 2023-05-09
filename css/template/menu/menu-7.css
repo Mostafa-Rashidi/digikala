@@ -1,0 +1,274 @@
+div.menu-7 {
+    width: 100%;
+    height: 875px;
+    background-color: var(--bg-white);
+    padding-top: 20px;
+  }
+  div.menu-7>div.menu-7-1 {
+    width: 98%;
+    height: 430px;
+    background-color: white;
+    margin: 0px auto;
+  }
+  div.menu-7>div.menu-7-1 > div.parents {
+    width: 100%;
+    height: 430px;
+    padding-right: 5px;
+    border: 1px solid var(--bg-grey);
+    border-radius: 15px;
+  }
+  div.menu-7>div.menu-7-1 > div.parents hr {
+    color: var(--bg-grey);
+    opacity: 0.2;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > hr.vertical {
+    display: inline-block;
+    transform: rotate(180deg);
+    height: 430px;
+    vertical-align: bottom;
+  }
+  /* toys */
+  div.menu-7>div.menu-7-1 > div.parents > div.toys {
+    width: 300px;
+    height: 430px;
+    display: inline-block;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys > h2 {
+    font-family: yekan;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys > h5 {
+    font-family: yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    color: rgb(160, 156, 156);
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys img {
+    width: 135px;
+    height: 140px;
+    margin: 10px 5px 2px 2px;
+    vertical-align: top;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys > hr.vertical {
+    display: inline-block;
+    transform: rotate(180deg);
+    height: 160px;
+    vertical-align: bottom;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys> a {
+    text-decoration: none;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.toys > a:last-child {
+    color:var(--bg-font);
+    margin-right: 135px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  /* end toys */
+  /* shoes */
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes {
+    width: 300px;
+    height: 430px;
+    display: inline-block;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes > h2 {
+    font-family: yekan;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes > h5 {
+    font-family: yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    color: rgb(160, 156, 156);
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes img {
+    width: 135px;
+    height: 140px;
+    margin: 10px 5px 2px 2px;
+    vertical-align: top;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes > hr.vertical {
+    display: inline-block;
+    transform: rotate(180deg);
+    height: 160px;
+    vertical-align: bottom;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes > a {
+    text-decoration: none;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.shoes > a:last-child {
+    color:var(--bg-font);
+    margin-right: 135px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  /* end shoes */
+  /* laptop */
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop {
+    width: 300px;
+    height: 430px;
+    display: inline-block;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop > h2 {
+    font-family: yekan;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop > h5 {
+    font-family: yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    color: rgb(160, 156, 156);
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop img {
+    width: 135px;
+    height: 140px;
+    margin: 10px 5px 2px 2px;
+    vertical-align: top;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop > hr.vertical {
+    display: inline-block;
+    transform: rotate(180deg);
+    height: 160px;
+    vertical-align: bottom;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop > a {
+    text-decoration: none;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.laptop > a:last-child {
+    color:var(--bg-font);
+    margin-right: 135px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  /* end laptop */
+  /* cars */
+  div.menu-7>div.menu-7-1 > div.parents > div.cars {
+    width: 300px;
+    height: 430px;
+    display: inline-block;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars > h2 {
+    font-family: yekan;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars > h5 {
+    font-family: yekan;
+    font-size: 11px;
+    margin-right: 10px;
+    color: rgb(160, 156, 156);
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars img {
+    width: 135px;
+    height: 140px;
+    margin: 10px 5px 2px 2px;
+    vertical-align: top;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars > hr.vertical {
+    display: inline-block;
+    transform: rotate(180deg);
+    height: 160px;
+    vertical-align: bottom;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars > a {
+    text-decoration: none;
+  }
+  div.menu-7>div.menu-7-1 > div.parents > div.cars > a:last-child {
+    color:var(--bg-font);
+    margin-right: 135px;
+    display: inline-block;
+    margin-top: 5px;
+  }
+  /* end cars */
+  /* swiper*/
+  div.menu-7>div.menu-7-2{
+    width: 98%;
+    height: 400px;
+    background-color: white;
+    margin: 10px auto;
+    border: 1px solid var(--bg-grey);
+    border-radius: 15px;
+    text-align: center;
+  }
+  div.menu-7>div.menu-7-2>div:first-child{
+    width: 98%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  div.menu-7>div.menu-7-2>div:first-child>i{
+    color: orange;
+  }
+  div.menu-7>div.menu-7-2>div:first-child>h2{
+    display: inline-block;
+    font-family: iransans;
+    font-size: 17px;
+    font-weight: normal;
+  }
+  div.menu-7>div.menu-7-2>div:first-child>a{
+    text-decoration: none;
+    font-size: 11px;
+    font-family: yekan;
+    float: left;
+    color:var(--bg-font);
+  }
+  div.menu-7>div.menu-7-2 .swiper {
+    width: 100%;
+    height: 80%;
+  }
+  div.menu-7>div.menu-7-2 .swiper-slide {
+    text-align: center;
+    width: 100%;
+    height: 80%;
+    font-size: 18px;
+    background: #fff;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+  }
+  div.menu-7>div.menu-7-2 .swiper-slide  a{
+    display: block;
+    width: fit-content;
+    height: 100px   ;
+    text-decoration: none;
+    }
+  div.menu-7>div.menu-7-2 .swiper-slide img {
+    width: 75px;
+    height: 85px;
+    vertical-align: middle;
+    margin-top: 15px;
+    padding: 5px;
+  }
+  div.menu-7>div.menu-7-2 .swiper-slide  i{
+    color: var(--bg-font);
+    font-family: iransans;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  div.menu-7>div.menu-7-2 .swiper-slide  h5{
+    width: 145px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+    font-family: iransans;
+    font-weight: normal;
+    padding: 35px 3px 10px 5px;
+  }
+  div.menu-7>div.menu-7-2 .swiper-slide  a:not(:nth-of-type(3))>h5{
+    border-bottom: 1px solid var(--bg-grey);
+  }
+  @media (max-width: 760px) {
+    div.menu-7>div.menu-7-2 .swiper-button-next {
+      right: 20px;
+      transform: rotate(90deg);
+    }
+    div.menu-7>div.menu-7-2 .swiper-button-prev {
+      left: 20px;
+      transform: rotate(90deg);
+    }
+  }

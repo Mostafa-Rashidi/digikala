@@ -1,0 +1,106 @@
+div.menu-8 {
+  width: 100%;
+  height: 950px;
+  background-color:var(--bg-white);
+  padding-top: 20px;
+}
+div.menu-8 > div.parents {
+  width: 98%;
+  height: 905px;
+  border: 1px solid rgba(167, 163, 163, 0.579);
+  border-radius: 15px;
+  margin: 0px auto;
+  background-color: white;
+}
+div.menu-8 > div.parents > div:first-child {
+  width: 100%;
+  height: 65px;
+  text-align: center;
+  padding-top: 15px;
+}
+div.menu-8 > div.parents > div:first-child>i {
+  font-size: 20px;
+  margin-left: 6px;
+  color: crimson;
+  vertical-align: bottom;
+  transform: rotate(-45deg);
+}
+div.menu-8 > div.parents > div:first-child > h2 {
+  font-size: 15px;
+  font-family: iransans;
+  font-weight: normal;
+  display: inline-block;
+}
+div.menu-8 > div.parents > div.table {
+  width: 1200px;
+  height: 825px;
+  padding: 5px;
+  margin-right: 15px ;
+  display: table;
+  background-color: white;
+}
+div.menu-8 > div.parents > div.table > div.row {
+  width: 100%;
+  height: 270px;
+  display: table-row;
+  background-color: white;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell {
+  width: 200px;
+  height: inherit;
+  display: table-cell;
+  border-bottom: 1px solid rgba(167, 163, 163, 0.579);
+  border-left: 1px solid rgba(167, 163, 163, 0.579);
+}
+div.menu-8 > div.parents > div.table > div.row:last-child > div.cell {
+    border-bottom:  transparent;
+}
+div.menu-8 > div.parents > div.table > div.row:not(:nth-child(3)) > div.cell:last-child {
+    border-left: transparent;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 20px 20px 10px 2px;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > img {
+  width: 140px;
+  height: 120px;
+  display: block;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > i {
+  display: block;
+  color:crimson;
+  font-size: 22px;
+  font-weight: normal;
+  margin-right: 6px;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > h5 {
+  display: inline-block;
+  font-family: yekan;
+  font-size: 11px;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > h5:nth-child(3) {
+    padding: 2px 7px 2px 7px;
+    margin: 10px 0px 10px 70px;
+    background-color:crimson;
+    border-radius: 15px;
+    color: white;
+    font-size: 9px;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > h6 {
+  text-decoration-line: line-through;
+  color: grey;
+  font-size: 10px;
+  font-family: yekan;
+  direction: ltr;
+  margin-left: 20px;
+}
+div.menu-8 > div.parents > div.table > div.row > div.cell > a > input {
+  margin-right: 70px;
+  margin-top: 20px;
+  border: unset;
+  color: red;
+  background-color: transparent;
+}

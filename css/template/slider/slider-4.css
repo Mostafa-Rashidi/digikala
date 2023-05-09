@@ -1,0 +1,18 @@
+div.slider-4 {
+  width: 100%;
+  height: 245px;
+  background-color: var(--bg-white);
+  text-align: center;
+}
+div.slider-4 > div {
+  width: 615px;
+  height: inherit;
+  display: inline-block;
+  text-align: center;
+}
+div.slider-4 > div img {
+  width: 610px;
+  height: inherit;
+  object-fit: cover;
+  border-radius: 15px;
+}

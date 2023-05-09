@@ -1,0 +1,18 @@
+div.slider-3{
+    width: 100%;
+    height: 230px;
+    background-color:var(--bg-white);
+    text-align: center;
+}
+div.slider-3>div{
+    width: 300px;
+    height: inherit;
+    display: inline-block;
+    margin-left: 7px;
+}
+div.slider-3>div>img{
+    width: inherit;
+    height: inherit;
+    border-radius: 20px;
+    object-fit: cover;
+}
