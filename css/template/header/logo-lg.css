@@ -1,0 +1,101 @@
+div.logo {
+    width: 100%;
+    height: 70px;
+    position: sticky;
+}
+div.digi{
+    width: 15%;
+    height: inherit;
+    text-align: center;
+    float: right;
+    background-color: var(--bg-white);
+}
+div.digi>img{
+    width: 50%;
+    margin-top: 20px;
+}
+div.search{
+    width: 60%;
+    height: inherit;
+    float: right;
+    position: relative;
+    background-color: var(--bg-white);
+}
+div.search>i{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    color: grey;
+}
+div.search>input{
+    margin-top: 15px;
+    width: 65%;
+    height: 35px;
+    background-color: rgba(119, 136, 153, 0.2);
+    border-radius: 15px;
+    border: none;
+    font-family: iransans;
+    padding-right: 30px;
+    padding-left: 10px;
+    transition: 500ms;
+}
+div.search>input:focus{
+    background-color: black;
+    color: azure;
+}
+div.login{
+    width: 25%;
+    height: inherit;
+    float: right;
+    background-color: var(--bg-white);
+    text-align: center;
+}
+div.login>a:first-child{
+    display: inline-block;
+    width: 70%;
+    height: 35px;
+    margin: 15px 0px 0px 5px;
+    padding: 6px;
+    border: var(--border-1px);
+    background-color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    font-family: iransans;
+    transition: 500ms;
+}
+div.login>a:first-child>i{
+    margin-left: 5px;
+    transform: rotate(180deg);
+}
+div.logo>div.login>a:first-child:hover{
+    background-color: black;
+    color: azure;
+}
+div.logo>div.login>i[class="fa-thin fa-pipe"]{
+    margin-left: 3px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+div.logo>div.login>a:last-child{
+    display: inline-block;
+    width: fit-content;
+    height: 35px;
+    margin: 15px 0px 0px 3px;
+    padding: 6px;
+    text-decoration: none;
+    color:black;
+    font-size: 14px;
+    font-family: iransans;
+    transition: 500ms;
+}
+div.logo>div.login>a:last-child>i{
+    width: 100%;
+    transform:rotatey(180deg);
+}
+div.logo>div.login>a:last-child:hover{
+    background-color: black;
+    color: azure;
+    /* width: 30%; */
+}

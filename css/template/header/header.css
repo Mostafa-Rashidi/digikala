@@ -1,5 +1,15 @@
-@import url('./banner.css');
-@import url('./logo.css');
+@import url('./banner-xxl.css') screen and (min-width:1400px);
+@import url('./banner-xl.css') screen and (min-width:1200px) and (max-width:1400px);
+@import url('./banner-lg.css') screen and (min-width:992px) and (max-width:1200px);
+@import url('./banner-md.css') screen and (min-width:768px) and (max-width:992px);
+@import url('./banner-sm.css') screen and (min-width:576px) and (max-width:768px);
+@import url('./banner-xs.css') screen and (max-width:576px);
+@import url('./logo-xxl.css') screen and (min-width:1400px);
+@import url('./logo-xl.css') screen and (min-width:1200px) and (max-width:1400px);
+@import url('./logo-lg.css') screen and (min-width:992px) and (max-width:1200px);
+@import url('./logo-md.css') screen and (min-width:768px) and (max-width:992px);
+@import url('./logo-sm.css') screen and (min-width:576px) and (max-width:768px);
+@import url('./logo-xs.css') screen and (max-width:576px);
 @import url('./navigation.css');
 header{
     width: 100%;

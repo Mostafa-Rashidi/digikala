@@ -11,10 +11,11 @@ div.digi{
     background-color: var(--bg-white);
 }
 div.digi>img{
+    width: 50%;
     margin-top: 20px;
 }
 div.search{
-    width: 70%;
+    width: 60%;
     height: inherit;
     float: right;
     position: relative;
@@ -28,7 +29,7 @@ div.search>i{
 }
 div.search>input{
     margin-top: 15px;
-    width: 600px;
+    width: 70%;
     height: 35px;
     background-color: rgba(119, 136, 153, 0.2);
     border-radius: 15px;
@@ -43,7 +44,7 @@ div.search>input:focus{
     color: azure;
 }
 div.login{
-    width: 15%;
+    width: 25%;
     height: inherit;
     float: right;
     background-color: var(--bg-white);
@@ -51,9 +52,9 @@ div.login{
 }
 div.login>a:first-child{
     display: inline-block;
-    width: fit-content;
+    width: 70%;
     height: 35px;
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 0px 5px;
     padding: 6px;
     border: var(--border-1px);
     background-color: whitesmoke;
@@ -73,7 +74,7 @@ div.logo>div.login>a:first-child:hover{
     color: azure;
 }
 div.logo>div.login>i[class="fa-thin fa-pipe"]{
-    margin-left: 10px;
+    margin-left: 3px;
     font-size: 20px;
     vertical-align: middle;
 }
@@ -81,7 +82,7 @@ div.logo>div.login>a:last-child{
     display: inline-block;
     width: fit-content;
     height: 35px;
-    margin: 15px 10px 0px 0px;
+    margin: 15px 0px 0px 3px;
     padding: 6px;
     text-decoration: none;
     color:black;
@@ -90,9 +91,11 @@ div.logo>div.login>a:last-child{
     transition: 500ms;
 }
 div.logo>div.login>a:last-child>i{
+    width: 100%;
     transform:rotatey(180deg);
 }
 div.logo>div.login>a:last-child:hover{
     background-color: black;
     color: azure;
+    /* width: 30%; */
 }
