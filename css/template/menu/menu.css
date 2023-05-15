@@ -1,5 +1,15 @@
-@import url('./menu-1.css');
-@import url('./menu-2.css');
+@import url('./menu-1-xxl.css') screen and (min-width:1400px);
+@import url('./menu-1-xl.css') screen and (min-width:1200px) and (max-width:1400px);
+@import url('./menu-1-lg.css') screen and (min-width:992px) and (max-width:1200px);
+@import url('./menu-1-md.css') screen and (min-width:768px) and (max-width:992px);
+@import url('./menu-1-sm.css') screen and (min-width:576px) and (max-width:768px);
+@import url('./menu-1-xs.css') screen and (max-width:576px);
+@import url('./menu-2-xxl.css') screen and (min-width:1400px);
+@import url('./menu-2-xl.css') screen and (min-width:1200px) and (max-width:1400px);
+@import url('./menu-2-lg.css') screen and (min-width:992px) and (max-width:1200px);
+@import url('./menu-2-md.css') screen and (min-width:768px) and (max-width:992px);
+@import url('./menu-2-sm.css') screen and (min-width:576px) and (max-width:768px);
+@import url('./menu-2-xs.css') screen and (max-width:576px);
 @import url('./menu-3.css');
 @import url('./menu-4.css');
 @import url('./menu-5.css');

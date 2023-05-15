@@ -1,0 +1,329 @@
+div.navigation {
+    width: 100%;
+    height: 35px;
+    background-color: var(--bg-white);
+    border-bottom: 1px solid lightslategray;
+  }
+  div.navigation > nav {
+    width: 80%;
+    height: inherit;
+    display: inline-block;
+  }
+  div.navigation > nav > ul {
+    width: 100%;
+    height: inherit;
+    list-style: none;
+    padding-right: 10px;
+  }
+  div.navigation > nav > ul > li {
+    display: inline-block;
+    width: auto;
+    height: inherit;
+    padding-right: 5px;
+    transition: 300ms;
+  }
+  div.navigation > nav > ul > li > a {
+    line-height: 35px;
+    width: fit-content;
+    color: black;
+    font-family: iransans;
+    font-size: 10px;
+    text-decoration: none;
+    margin-left: 4px;
+    display: block;
+  }
+  div.navigation > nav > ul > li:first-child {
+    font-weight: bold;
+    font-style: italic;
+  }
+  div.navigation > nav > ul > li:not(li.pip):hover {
+    border-bottom: 3px solid red;
+  }
+  div.navigation > nav > ul > li i[class="fa-thin fa-pipe"] {
+    margin: 10px 4px 0px 4px;
+  }
+  div.navigation > nav > ul > li > div.megamenu {
+    width: calc(100vw - 40px);
+    height: 500px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    left: 10px;
+    display: none;
+  }
+  div.navigation > nav > ul > li:first-child:hover > div.megamenu  ,div.navigation > nav > ul > li:first-child:hover > div.megamenu > div > ul > li.mobile-show> div.submegamenu , div.navigation > nav > ul > li:first-child:hover > div.megamenu > div > ul > li.mobile-show:hover> div.submegamenu{
+      display: block;
+  }
+  div.navigation > nav > ul > li:first-child> div.megamenu > div:hover > ul > li.mobile-show> div.submegamenu{
+  display: none;
+  }
+  div.navigation > nav > ul > li > div.megamenu > div {
+    width: 10%;
+    height: inherit;
+    background-color: whitesmoke;
+    box-shadow: -5px 0 5px black;
+    /* overflow: auto; */
+    /* z-index: 2; */
+    /* direction: ltr; */
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul {
+    width: 100%;
+    list-style: none;
+    
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul > li {
+    width: inherit;
+    display: inline-block;
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul > li > a {
+    width: auto;
+    display: block;
+    text-decoration: none;
+    color: #2b2b2b;
+    font-family: iransans;
+    font-size: 10px;
+    padding:5px ;
+    margin-bottom: 10px;
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul > li > a>i {
+    margin-left: 4px;
+    color: #2b2b2b;
+    font-size: 9px;
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul > li > a:hover , div.navigation > nav > ul > li > div.megamenu > div > ul > li > a:hover>i {
+      color: red;
+      background-color: wheat;
+  }
+  div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu {
+    width: 90%;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: -3px 3px 3px gray;
+    display: none;
+  }
+  div.navigation > nav > ul > li > div.megamenu > div > ul > li:hover>div.submegamenu {
+      display: block;
+  }
+  div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:first-child {
+    width: auto;
+    height: 30px;
+  }
+  
+  div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:first-child>a{
+      text-decoration: none;
+      font-size: 12px;
+      font-family: iransans;
+      font-weight: normal;
+      display: block;
+      padding: 10px 20px 0px 10px;
+      color: gray;
+      
+    } 
+  div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:not(:first-child) {
+    width: 19%;
+    height: inherit;
+    vertical-align: top;
+    display: inline-block;
+  }
+  div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:not(:first-child)>a{
+      display: block;
+      font-family: iransans;
+      font-size: 11px;
+      font-weight: normal;
+      text-decoration: none;
+      color: grey;
+      line-height: 20px;
+      padding: 3px 30px 3px 10px;
+      transition: 300ms;
+    }
+    div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:not(:first-child)>a.bold{
+      display: block;
+      font-family: yekan;
+      font-size: 13px;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      line-height: 20px;
+      padding: 1px 0px 1px 10px;
+      transition: 300ms;
+    }
+    div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:not(:first-child)>a:hover{
+      color: red;
+    }
+    div.navigation
+    > nav
+    > ul
+    > li
+    > div.megamenu
+    > div
+    > ul
+    > li
+    > div.submegamenu
+    > div:not(:first-child)>a.bold>i{
+      color: red;
+      font-weight: bold;
+    }
+    /* location */
+  div.navigation > div.location {
+    width: 20%;
+    height: inherit;
+    float: left;
+  }
+  div.navigation > div.location>input {
+    display: none;
+  }
+  div.navigation > div.location >label[for=open-location] ,label[for=open-location] {
+    width: fit-content;
+    height: inherit;
+    line-height: 35px;
+    float: left;
+    margin-left: 10px;
+    padding: 3px;
+    font-family: iransans;
+    font-size: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 500ms;
+  }
+  div.navigation > div.location > label[for=open-location]:hover {
+    background-color: black;
+    color: white;
+  }
+  div.navigation > div.location > input[id=open-location]:checked ~ div.choose {
+   display: block;
+   position: fixed;
+  }
+  div.navigation > div.location >div.choose {
+    width: 27vw;
+    height: 80vh;
+    position: absolute;
+    left: calc(50% - 20vw/2);
+    top: calc(50% - 80vh/2);
+    z-index: 2;
+    background-color: var(--bg-white);
+    display: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 3px grey;
+    padding: 10px;
+  }
+  div.navigation > div.location >div.choose>div:first-child {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+  }
+  div.navigation > div.location >div.choose>div:first-child>h2 {
+    width: 87%;
+    height: auto;
+    font-size: 14px;
+    font-family: yekan;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 10px;
+    
+  }
+  div.navigation > div.location >div.choose>div:first-child>label[for=close-location] {
+    display: inline-block;
+  }
+  div.navigation > div.location >div.choose>div:first-child>label[for=close-location]:hover {
+    cursor: pointer;
+  }
+  div.navigation > div.location >div.choose>div:first-child>input[id=close-location]:checked ~ div.choose {
+    display: none;
+  }
+  div.navigation > div.location >div.choose>div:not(:first-child) {
+    width: 100%;
+    height: 70vh;
+    padding: 10px 10px 10px 0px;
+    overflow: auto;
+  }
+  div.navigation > div.location >div.choose>div:not(:first-child)>a:first-child {
+    width: 100%;
+    height: auto;
+    color: var(--bg-font);
+    font-size: 12px;
+    font-family: yekan;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+  }
+  div.navigation > div.location >div.choose>div:not(:first-child)>a:not(:first-child) {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid lightgray;
+    color:black;
+    font-size: 12px;
+    font-family: iransans;
+    font-weight: normal;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 8px;
+    line-height: 30px;
+  }
+  /* end location */

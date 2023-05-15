@@ -6,14 +6,14 @@ div.menu-1{
 }
 div.menu-1>div{
     display: inline-block;
-    width: 110px;
-    height: 110px;
-    margin: 15px 10px 20px 30px;
+    width: 10%;
+    height: 77%;
+    margin: 15px 10px 20px 5px;
     padding: 5px;
 }
 div.menu-1>div>img{
-    width: 80px;
-    height: 80px;
+    width: 69%;
+    height: 70%;
     border-radius: 50%;
     outline: 2px solid red;
     outline-offset: 5px;
